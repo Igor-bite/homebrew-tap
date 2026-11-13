@@ -3,8 +3,12 @@
 Homebrew casks by Igor-bite.
 
 ```bash
-brew install --cask igor-bite/tap/subzero
+brew tap igor-bite/tap
+brew trust igor-bite/tap
+brew install --cask subzero
 ```
+
+Recent Homebrew loads casks from third-party taps only after `brew trust`.
 
 | Cask | Description |
 |---|---|
