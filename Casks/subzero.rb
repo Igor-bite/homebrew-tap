@@ -1,6 +1,6 @@
 cask "subzero" do
-  version "0.1.0"
-  sha256 "71d9fe9471ad4ed693c84dfe4766bdceb1f9249d8135b8757eefa90a75ce6b14"
+  version "0.2.0"
+  sha256 "6460083bd93730db41b77e674c0e707a931f79086e2a40dc65404b1f67c7ca2a"
 
   url "https://github.com/Igor-bite/subzero/releases/download/v#{version}/Subzero-#{version}.zip"
   name "Subzero"
