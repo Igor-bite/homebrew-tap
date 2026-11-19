@@ -1,6 +1,6 @@
 cask "subzero" do
-  version "0.2.0"
-  sha256 "6460083bd93730db41b77e674c0e707a931f79086e2a40dc65404b1f67c7ca2a"
+  version "0.4.0"
+  sha256 "abf3b8acef51e1fea6c1e3b9aaa6b9fa45eeb92c166f2efcc0d83d9a9240f799"
 
   url "https://github.com/Igor-bite/subzero/releases/download/v#{version}/Subzero-#{version}.zip"
   name "Subzero"
@@ -20,6 +20,7 @@ cask "subzero" do
 
   zap trash: [
     "~/Library/Application Support/Subzero",
+    "~/Library/Containers/com.klyuzhevigor.subzero.safari",
     "~/Library/Preferences/com.klyuzhevigor.subzero.plist",
   ]
 end
